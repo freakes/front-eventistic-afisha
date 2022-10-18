@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+  z-index: -1;
+}
+
+header {
+  display: block !important;
+  padding-top: 5px;
+  height: 60px;
+  background-color: #ffdf00;
+}
+
+.dropdown {
+
+}
+.dropdown {list-style: none; background: none; margin-top: 5px;
+  float: left; display: inline-block;}
+
+.dropdown .nav-link {color:#fff; text-decoration: none}
+.dropdown .dropdown-menu li{color: #000; text-decoration: none;}
+.dropdown .btn {background: #f58506; color: #000;}
+.dropdown .btn:hover {background: #f58506; color:#000;}
+.dropdown .btn:active {background: #f58506; color:#000;}
+.dropdown .btn:focus {background: #f58506; color:#000;}
+.dropdown-menu .dropdown-item {display: inline-block; width: 100%; padding: 10px 5px;}
+
+
+.logo {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.create_event_show_button {
+  font-family: "Roboto Light", sans-serif;
+  padding-top: 10px;
+  display: inline-block;
+  color: black !important;
+  font-size: 14px;
+}
+
+.logout {
+  display: inline-block;
+  float: right;
+}
+
+.logout img {
+  width: 50px;
+  cursor: pointer;
+}
+
+.event__list {
+  margin-top: 30px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 1250px;
+}
+
+.event__item {
+  display: inline-block;
+  padding: 10px 10px 10px 20px;
+  margin-top: 20px;
+  border: 4px solid #ffdf00;
+  border-radius: 30px;
+  text-align: left;
+  width: 600px;
+}
+
+.event__item:nth-child(even) {
+  margin-left: 30px;
+}
+
+.event__item__delete_btn {
+  float: right;
+}
+
+.event__item__name {
+  font-weight: bold;
+  display: inline-block;
+}
+
+.event__item__date {
+  display: inline-block;
+  margin-left: 15%;
+}
+.redact__event__item__button {
+  display: inline-block;
+  float: right;
+}
+
+.create__event__form {
+  margin-top: 10px;
+}
+
+.event_name_input {
+}
+
+.create__event__description_input {
+}
+
+.event_date_input {
+
+}
+
+.create__event__button {
+  margin-top: 20px;
+}

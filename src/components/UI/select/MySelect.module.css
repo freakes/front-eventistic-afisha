@@ -1,0 +1,17 @@
+.mySelect {
+    float: left;
+    width: 100%;
+    color: #585858;
+    padding-top: 14px;
+    /*margin-left: 10px;*/
+    border: none;
+    border-bottom: 2px solid #ffdf00;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.mySelect option {
+    background: rgba(0,0,0,0);
+}

@@ -1,0 +1,9 @@
+.myInput {
+    width: 100%;
+    float: left;
+    border: none;
+    border-bottom: 3px solid #ffdf00;
+    margin-top: 10px;
+    outline: none;
+}
+
